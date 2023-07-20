@@ -1,4 +1,4 @@
-# RS232
+# RS232 VERILOG
 Zaprojektowano moduły nadajnika i odbiornika danych RS-232 dla następujących parametrów transmisji: 8 bitów danych, bez bitu parzystości, jeden bit stopu, szybkość transmisji 9600bps. Moduły połączono tak, aby odbiornik RS232 po otrzymaniu każdego znaku, podawał go do sumatora i po dodaniu wartości 20h, moduł nadajnika wysyłał go.
 
 Wykonano symulację funkcjonalną oraz zweryfikowano układ praktycznie poprzez zaprogramowanie płytki testowej. Weryfikacja praktyczna polegała na podłączeniu wyprowadzeń zaprojektowanych modułów do portu COM komputera PC i uruchomieniu programu terminala putty.
